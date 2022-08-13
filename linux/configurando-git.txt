@@ -1,1 +1,36 @@
-Configurando GIT
+Comandos a seguinte devem ser usados para configurar o Git e Github com Linux.
+
+-------------------- CONFIGURAÇÕES GIT --------------------
+
+1° Instalar git
+
+sudo apt-get install git
+
+2° Configurar os nomes de usuarios dos commit (é bom diferenciar qual dispositivo você esta utilizando).
+
+git config --global user.name "Seu nome aqui"
+git config --global user.email "seu_email@exemplo.com"
+
+-------------------- CONFIGURAÇÕES GITHUB --------------------
+
+Agora devemos integrar o GITHUB com o git que instalamos, para isso vamos precisar criar uma key ssh.
+
+1° Criar a key SSH
+
+ssh-keygen -t rsa -C "seu_email@exemplo.com" 
+#-t especifica qual o tipo de key | rsa é o tipo de key | -C "seu..." é o comentário na última linha
+
+2° Copiar a key SSH
+Aqui você pode usar qualquer editor de texto para copiar a key, algumas opções abaixo.
+
+pbcopy < ~/.ssh/id_rsa.pub
+gedit ~/.ssh/id_rsa.pub
+nano ~/.ssh/id_rsa.pub
+
+3° Integração com GITHUB
+
+Seu github > configurações da conta > SSH Keys > Adicionar SSH Key > Colar essa key.
+
+Agora só basta testar
+
+ssh -T git@github.com
