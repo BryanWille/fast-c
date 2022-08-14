@@ -1,0 +1,11 @@
+APPS UTEIS
+
+
+	ONEDRIVER
+
+Onedrive no linux:
+https://software.opensuse.org/download.html?project=home%3Ajstaf&package=onedriver
+
+Instalação:
+
+sudo dpkg -i NOMEDOPACOTE.deb
