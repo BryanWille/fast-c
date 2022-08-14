@@ -1,0 +1,26 @@
+Tipos de Instaladores
+
+APT-GET
+O padrão da maioria das distros baseadas em debian
+
+sudo apt-get nome_da_aplicacao
+
+
+SNAP
+Possue maior flexibilidade e é usado em mais distros
+
+sudo apt-get install snap
+
+sudo snap install nome_da_aplicacao
+
+
+Instalação de Arquivos
+
+.deb
+sudo dpkg -i nome_da_aplicacao.deb
+
+.gz
+tar xvzf nome_da_aplicacao.tar.gz
+
+.bz2
+tar xvjf nome_da_aplicacao.bz2
