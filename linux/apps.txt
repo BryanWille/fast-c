@@ -6,6 +6,12 @@ APPS UTEIS
 Onedrive no linux:
 https://software.opensuse.org/download.html?project=home%3Ajstaf&package=onedriver
 
-Instalação:
-
 sudo dpkg -i NOMEDOPACOTE.deb
+
+
+	
+	GNOME-TWEAKS
+
+Customizar o layout gnome, principalmente abas e dock no caso.
+
+sudo apt-get install gnome-tweaks
