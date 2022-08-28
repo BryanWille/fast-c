@@ -15,3 +15,6 @@ sudo dpkg -i NOMEDOPACOTE.deb
 Customizar o layout gnome, principalmente abas e dock no caso.
 
 sudo apt-get install gnome-tweaks
+
+
+	GIT
