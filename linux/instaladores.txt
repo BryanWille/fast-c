@@ -24,3 +24,6 @@ tar xvzf nome_da_aplicacao.tar.gz
 
 .bz2
 tar xvjf nome_da_aplicacao.bz2
+
+.sh
+sh nome_da_aplicacao.sh
