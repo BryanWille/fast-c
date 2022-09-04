@@ -1,0 +1,19 @@
+VPN
+Dicas para vpn
+
+Instalar vpn
+sudo apt-get install openvpn
+
+
+
+Conectar .ovpn
+openvpn --config arquivo.ovpn
+
+// Conexão remota
+Para fazer uma conexão remota de linux para windows usam o Remote Desktop.
+
+Precisa primeiro baixar o Remmina
+
+sudo apt-get install Remmina
+
+depois abrir o programa, e colocar o IP.
